@@ -39,3 +39,20 @@ R² mejoró 4x al agregar variables macroeconómicas.
 Clasificador para predecir dirección del oro. Conclusión honesta: 
 el mercado es mayormente eficiente, el edge predecible es pequeño (~2-8% R²).
 Las limitaciones del modelo demuestran criterio analítico real.
+
+### Proyecto 2 — Mantenimiento Predictivo Industrial
+Modelo de clasificación para detectar fallas inminentes en equipos industriales
+usando datos de sensores (temperatura, vibración, presión, amperaje, RPM).
+
+**Resultados:**
+- Accuracy: 95.8% | AUC-ROC: 0.99
+- Recall fallas: 86% — de cada 100 fallas reales, detecta 86
+- Feature más importante: vibración (32.6%)
+
+**Contexto real:** desarrollado con conocimiento directo de mantenimiento
+en operación minera. El modelo actúa como alarma temprana; el diagnóstico
+de causa raíz (filtración de aceite, desgaste de rodamientos, falta de
+lubricación) sigue siendo trabajo del especialista.
+
+**Aplicación:** integrable con SAP PM para generación automática de avisos
+por prioridad según probabilidad de falla predicha por el modelo.
