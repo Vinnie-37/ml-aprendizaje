@@ -22,3 +22,20 @@ Python | pandas | NumPy | matplotlib | yfinance
 - Mejor día: +5.95% | Peor día: -4.98%
 - Close, High, Low y Open tienen correlación >0.99 entre sí
 - El volumen no correlaciona con el precio (r=-0.01)
+- 
+## Proyectos completados
+
+### Etapa 0 — EDA Precios del Oro
+Análisis exploratorio completo con estadísticas, visualizaciones y correlaciones.
+
+### Etapa 1 — Matemáticas aplicadas a ML  
+Álgebra lineal, estadística y cálculo aplicados a datos financieros reales.
+
+### Etapa 2 — ML Clásico
+Regresión lineal y Random Forest con features externas (DXY, VIX, S&P500).
+R² mejoró 4x al agregar variables macroeconómicas.
+
+### Proyecto — Gold Direction Predictor
+Clasificador para predecir dirección del oro. Conclusión honesta: 
+el mercado es mayormente eficiente, el edge predecible es pequeño (~2-8% R²).
+Las limitaciones del modelo demuestran criterio analítico real.
